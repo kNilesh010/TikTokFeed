@@ -13,6 +13,8 @@
 		6734509F27A32C560020B350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6734509D27A32C560020B350 /* Main.storyboard */; };
 		673450A127A32C590020B350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 673450A027A32C590020B350 /* Assets.xcassets */; };
 		673450A427A32C590020B350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673450A227A32C590020B350 /* LaunchScreen.storyboard */; };
+		673450AC27A331D40020B350 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673450AB27A331D40020B350 /* MyCollectionViewCell.swift */; };
+		673450AF27A33C1B0020B350 /* videoplayback.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 673450AE27A33C1B0020B350 /* videoplayback.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		673450A027A32C590020B350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		673450A327A32C590020B350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		673450A527A32C590020B350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		673450AB27A331D40020B350 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		673450AE27A33C1B0020B350 /* videoplayback.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoplayback.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		6734509627A32C560020B350 /* TikTokFeed */ = {
 			isa = PBXGroup;
 			children = (
+				673450AE27A33C1B0020B350 /* videoplayback.mp4 */,
 				6734509727A32C560020B350 /* AppDelegate.swift */,
 				6734509927A32C560020B350 /* SceneDelegate.swift */,
 				6734509B27A32C560020B350 /* ViewController.swift */,
+				673450AB27A331D40020B350 /* MyCollectionViewCell.swift */,
 				6734509D27A32C560020B350 /* Main.storyboard */,
 				673450A027A32C590020B350 /* Assets.xcassets */,
 				673450A227A32C590020B350 /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			files = (
 				673450A427A32C590020B350 /* LaunchScreen.storyboard in Resources */,
 				673450A127A32C590020B350 /* Assets.xcassets in Resources */,
+				673450AF27A33C1B0020B350 /* videoplayback.mp4 in Resources */,
 				6734509F27A32C560020B350 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				6734509C27A32C560020B350 /* ViewController.swift in Sources */,
 				6734509827A32C560020B350 /* AppDelegate.swift in Sources */,
+				673450AC27A331D40020B350 /* MyCollectionViewCell.swift in Sources */,
 				6734509A27A32C560020B350 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
